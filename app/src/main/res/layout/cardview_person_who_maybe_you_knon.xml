@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+android:id="@+id/card_view6"
+android:layout_width="212dp"
+android:layout_height="300dp"
+android:layout_margin="5dp"
+card_view:cardCornerRadius="4dp"
+android:backgroundTint="@color/light_gray">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="303dp">
+
+        <LinearLayout
+            android:layout_width="192dp"
+            android:layout_height="279dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="14dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/fotoPerfil"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_below="@+id/toolbar_profile"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/foto_perfil_description" />
+
+            <TextView
+                android:id="@+id/person_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:text="Nombre "
+                android:textColor="@color/white"
+
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/close_button"
+            android:layout_width="32dp"
+            android:layout_height="29dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="269dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/baseline_close_24" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="orange">#FF9800</color>
+    <color name="blue">#03A9F4</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="grey">#2A2A2A</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="eventblue">#004080</color>
+
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#FF0000</color>
+    <color name="light_gray">#C0C0C0</color>
+    <color name="light_gray2">#CCCCCCCC</color>
+    <color name="colorPrimaryDarktransparent">#80000000</color>
+    <color name="transparent_grey">#332A2A2A</color>
+    <color name="transparent">#00000000</color>
+    <color name="gris_muy_oscuro">#1E1E1E</color>
+    <color name="Darkblue">#004080</color>
+    <color name="semi_transparent_black">#80000000</color>
+
+
+
+
+
+    <color name="rojoEncendido">#FF0000</color>
+    <color name="rojoApagado">#660000</color>
+    <color name="amarilloEncendido">#FFFF00</color>
+    <color name="amarilloApagado">#666600</color>
+    <color name="verdeEncendido">#00FF00</color>
+    <color name="verdeApagado">#006600</color>
 </resources>
